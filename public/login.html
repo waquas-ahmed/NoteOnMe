@@ -8,24 +8,25 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <main class="main__container">
-        <div class="login__box">
-            <div class="top--box__header">
+    <main class="main--login__container">
+        <form class="login--form__box">
+            <div class="top--box__header align__item">
                 <span>Have an account?</span>
                 <h2>Login</h2>
             </div>
-            <div class="input__field">
+            <div class="input--user__field align__item">
                 <input type="text" class="user__name" placeholder="username">
-                <i class="bx bx-user"></i>
+                <i class="bx bx-user icon__align"></i>
             </div>
-            <div class="input__field">
+            <div class="input--pass__field align__item">
                 <input type="password" class="user__password" placeholder="password">
-                <i class="bx bx-lock-alt"></i>
+                <i class="bx bx-lock-alt icon__align"></i>
             </div>
-            <div class="input__field">
-                <input type="submit" class="auth__submission" value="Login">
+            <div class="input--submit__field align__item">
+                <button class="auth__submission">Login</button>
+                <i class='bx bx-run'></i>
             </div>
-        </div>
+        </form>
     </main>
 </body>
 </html>
